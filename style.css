@@ -1,0 +1,41 @@
+.container{
+    text-decoration: underline;
+    color: rgb(0, 255, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin: auto;
+    background-image: url("https://super.abril.com.br/wp-content/uploads/2018/10/churrasco.png?quality=70&strip=info&resize=680,453");
+    background-size: contain;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgb(43, 42, 42);
+    filter:drop-shadow(0px 12px 10px rgb(255, 0, 0));
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button{
+    transition: ease 0.5s;
+    border-radius: 5px;
+}
+
+button:hover{
+    transition: ease 0.5s;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(230, 0, 0);
+}
+
+#resultados{
+    color: black;
+    text-decoration: underline;
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+}
